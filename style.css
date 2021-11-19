@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	background-color: #ccd1d9;
+}
+nav{
+	text-align: right;
+	background-color: #2A2F33;
+}
+.menu{
+	padding: 20px;
+}
+.menu a{
+	color: gray;
+	text-decoration: none	;
+}
+.menu .link{
+	margin-right: 30px;
+	margin-left: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+.menu .link:hover{
+	color: white;
+}
+.menu #null{
+	font-style: italic;
+	float: left;
+}
+
+/*HAKKIMDA SAYFASI*/
+
+#hakkimda{
+	margin: 20px;
+	width: 90%;
+	margin: auto;
+}
+#laptop{
+	width: 200px;
+	float: left;
+}
